@@ -1,12 +1,12 @@
 {
-    "chainId": "arkeo",
+    "chainId": "arkeo-main-v1",
     "chainName": "Arkeo",
-    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/arkeo/chain.png",
-    "rpc": "http://seed.arkeo.network:26657",
-    "rest": "http://seed.arkeo.network:1317",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/arkeo-main-v1/chain.png",
+    "rpc": "https://rpc-seed.arkeo.network",
+    "rest": "https://rest-seed.arkeo.network",
     "nodeProvider": {
       "name": "Arkeo Protocol",
-      "email": "randy@arkeo.network",
+      "email": "info@arkeo.network",
       "website": "http://arkeo.network"
     },
     "bip44": {
@@ -33,7 +33,7 @@
         "coinMinimalDenom": "uarkeo",
         "coinDecimals": 6,
         "gasPriceStep": {
-          "low": 0.01,
+          "low": 0,
           "average": 0.025,
           "high": 0.03
         }
